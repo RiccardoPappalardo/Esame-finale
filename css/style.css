@@ -59,8 +59,16 @@ header h5{
     margin-left: 10px;
     font-size: 20px;
 }
-header h6{
-    font-size: 16px;
+article p {
+    max-width: 900px;
+    display:inline-block;
+    text-align: left;
+    
+}
+article{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: -40px;
 }
 section.card a{
     text-decoration: none;
@@ -73,14 +81,16 @@ header h3{
 section.card{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
     gap:20px;
     padding-top: 60px;
+    margin:20%;
+    margin-top: -10px;
+   
     
 }
 section.card img{
-    height:600px;
-    width:950px;
+    height:400px;
+    width:600px;
     object-fit: cover;
     transition: 0.7s;
 }
@@ -104,10 +114,11 @@ section.card h3 a:hover{
 main p{
     margin-left:  8px;
     margin-top: -17px;
+    line-height: 1.5em;
 }
 footer{
     background-color:#57C0FB;
-    margin-top: 90px;
+    margin-top: -180px;
     margin-bottom: -20px ;
     height: 150px;
    
@@ -175,9 +186,16 @@ footer img{
         margin-bottom: -30px;
         font-size: 12px;
     }
+    article p{
+max-width: 600px;
+    }
+    section.card{
+        margin: 20%;
+        margin-top: -20px;
+    }
     section.card img{
-        height:400px;
-        width:750px;
+        height:300px;
+        width:500px;
         object-fit: cover;
         
     }
@@ -189,12 +207,17 @@ footer img{
         font-size: 16px;
         padding-left: 8px;
     }
+    article p{
+        max-width: 300px;
+        margin-top: -30px;
+        margin-bottom: 40px;
+    }
     main p{
         margin-left:  8px;
         font-size: 14px;
     }
     footer{
-        margin-top: 120px;
+        margin-top: -70px;
         margin-bottom: -20px ;
         height: 100px; 
     }
@@ -216,7 +239,7 @@ footer img{
     
 
 }
-@media (max-width:650px){
+@media (max-width:700px){
     header{
         height: 250px;
         margin-top: -30px;
@@ -263,12 +286,13 @@ footer img{
         grid-template-columns: 1fr ;
         padding: 10px;
         gap:10px;
-        padding-top: 30px;
-        
+        margin: 20%;
+        margin-top: 15px;
+     
     }
     section.card img{
-        height:300px;
-        width:550px;
+        height:200px;
+        width:400px;
         object-fit: cover;
         
     }
@@ -282,6 +306,7 @@ footer img{
     }
     main p{
         margin-left:  8px;
+        
         font-size: 12px;
     }
     footer{

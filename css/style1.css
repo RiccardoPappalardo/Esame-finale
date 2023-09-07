@@ -118,9 +118,11 @@ section.card h3 a:hover{
     color:#57C0FB;
 }
 main p{
-    margin-top: 40px;
-    margin-left: 25%;
-    margin-right:25%;
+   line-height: 1.7em;
+    margin-left: 30%;
+    margin-right:30%;
+    max-width: 800px;
+    
 }
 main h4{
     text-align: center;
