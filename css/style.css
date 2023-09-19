@@ -123,10 +123,11 @@ header h4{
     color: white;
 }
 header h5{
+    
     text-align: center;
     color: white;
     margin-top:-90px;
-    margin-left: 10px;
+    
     font-size: 20px;
 
 }
@@ -154,9 +155,10 @@ section.card{
     grid-template-columns: 1fr 1fr;
     gap:20px;
     padding-top: 60px;
+    max-width: 1200px;
     margin:20%;
     margin-top: -10px;
-   
+    justify-content: center;
     
 }
 section.card img{
@@ -195,15 +197,7 @@ footer{
    
    
 }
-main h6 {
-    margin-top: 40px;
-    margin-bottom: -15px;
-    font-size: 18px;
-    font-weight:normal;
-    margin-left: 15%;
-    margin-right: 15%;
-    
-}
+
 footer p{
     text-align: right;
     padding-right: 29px;
